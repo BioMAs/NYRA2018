@@ -92,7 +92,8 @@
 	   });
 	   // Get the id of the current element
 	   cur = cur[cur.length-1];
-	   var id = cur && cur.length ? cur[0].id : "";
+		 var id = cur && cur.length ? cur[0].id : "";
+		 console.log(id);
 	   
 	   if (lastId !== id) {
 	       lastId = id;
